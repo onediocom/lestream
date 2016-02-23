@@ -1,3 +1,1 @@
-module.exports = function() {
-	//do nothing
-}
+module.exports = require("./lib/lestream.js");

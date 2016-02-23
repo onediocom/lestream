@@ -1,18 +1,82 @@
 {
-  "name": "lestream",
-  "version": "0.0.0",
-  "description": "Some dummy package to fix production",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      "lestream",
+      ""
+    ]
+  ],
+  "_from": "lestream@*",
+  "_id": "lestream@1.0.1",
+  "_inCache": true,
+  "_location": "/lestream",
+  "_nodeVersion": "0.10.25",
+  "_npmUser": {
+    "email": "ekin@eknkc.com",
+    "name": "eknkc"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/onediocom/lestream.git"
+  "_npmVersion": "2.1.6",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "lestream",
+    "raw": "lestream",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "*",
+    "type": "range"
   },
-  "author": "",
-  "license": "ISC",
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/lestream/-/lestream-1.0.1.tgz",
+  "_shasum": "57430694d81315ab0e8b0f91cd585da5387b6cfb",
+  "_shrinkwrap": null,
+  "_spec": "lestream",
+  "_where": "",
+  "author": {
+    "name": "Ekin Koc"
+  },
+  "bin": {
+    "lestream": "./bin/lestream.js"
+  },
   "bugs": {
     "url": "https://github.com/onediocom/lestream/issues"
-  }
+  },
+  "dependencies": {
+    "commander": "^2.5.0",
+    "split2": "^0.2.1"
+  },
+  "description": "Logentries Streams2 interface & cli tool to pipe logs to logentries",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "57430694d81315ab0e8b0f91cd585da5387b6cfb",
+    "tarball": "http://registry.npmjs.org/lestream/-/lestream-1.0.1.tgz"
+  },
+  "gitHead": "a76a2961e7736784a6d1c7d51b1ec60818d8f585",
+  "homepage": "https://github.com/onediocom/lestream",
+  "installable": true,
+  "keywords": [
+    "cli",
+    "log",
+    "logentries",
+    "logging",
+    "pipe",
+    "stream"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "eknkc",
+      "email": "ekin@eknkc.com"
+    }
+  ],
+  "name": "lestream",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/onediocom/lestream.git"
+  },
+  "scripts": {},
+  "version": "1.0.1"
 }
