@@ -6,7 +6,7 @@
     ]
   ],
   "_from": "lestream@*",
-  "_id": "lestream@1.0.1",
+  "_id": "lestream@1.0.2",
   "_inCache": true,
   "_location": "/lestream",
   "_nodeVersion": "0.10.25",
@@ -78,5 +78,5 @@
     "url": "git://github.com/onediocom/lestream.git"
   },
   "scripts": {},
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
